@@ -3342,6 +3342,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/portov/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.6.3_0.0__3.0.0_0.0__eai_1.10_enpu1.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.6.3_0.0__3.0.0_0.0__eai_1.10_enpu1.pmd \
     vendor/motorola/portov/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__4.7.0_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_1.43_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__4.7.0_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_1.43_enpu2.pmd \
     vendor/motorola/portov/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__4.8.1.11_0.0__3.0.0_0.0__3.1.2_0.0__3.2.0_0.1__eai_1.43_enpuv2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__4.8.1.11_0.0__3.0.0_0.0__3.1.2_0.0__3.2.0_0.1__eai_1.43_enpuv2.pmd \
+    vendor/motorola/portov/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__4.8.14_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_1.43_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__4.8.14_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_1.43_enpu2.pmd \
     vendor/motorola/portov/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__4.8.14_0.0__3.0.0_0.0__3.1.2_0.0__3.2.0_0.1__eai_1.43_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__4.8.14_0.0__3.0.0_0.0__3.1.2_0.0__3.2.0_0.1__eai_1.43_enpu2.pmd \
     vendor/motorola/portov/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__4.8.4_0.0__3.0.0_0.0__eai_1.43_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__4.8.4_0.0__3.0.0_0.0__eai_1.43_enpu2.pmd \
     vendor/motorola/portov/proprietary/vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.36_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.36_enpu2.pmd \
@@ -3360,6 +3361,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/portov/proprietary/vendor/etc/display/qdcm_calib_data_mipi_mot_vid_csot_1080p_dsc_672_120hz.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_mipi_mot_vid_csot_1080p_dsc_672_120hz.json \
     vendor/motorola/portov/proprietary/vendor/etc/display/qdcm_calib_data_mipi_mot_vid_txd_1080p_dsc_672_120hz.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_mipi_mot_vid_txd_1080p_dsc_672_120hz.json \
     vendor/motorola/portov/proprietary/vendor/etc/displayconfig/display_id_4630946916234099603.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946916234099603.xml \
+    vendor/motorola/portov/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint-service-jv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint-service-jv.rc \
     vendor/motorola/portov/proprietary/vendor/etc/init/fingerprint-fpc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fingerprint-fpc.rc \
     vendor/motorola/portov/proprietary/vendor/etc/init/vendor.qti.camera.provider-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider-service_64.rc \
     vendor/motorola/portov/proprietary/vendor/etc/jiigan/cache_front_main:$(TARGET_COPY_OUT_VENDOR)/etc/jiigan/cache_front_main \
@@ -3479,10 +3481,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/portov/proprietary/vendor/firmware/st54j_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st54j_fw.bin \
     vendor/motorola/portov/proprietary/vendor/firmware/st54l_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st54l_fw.bin \
     vendor/motorola/portov/proprietary/vendor/firmware/st54l_fw_felica.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st54l_fw_felica.bin \
+    vendor/motorola/portov/proprietary/vendor/lib64/camera/arcsoft_dc_calibration_u.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/arcsoft_dc_calibration_u.bin \
+    vendor/motorola/portov/proprietary/vendor/lib64/camera/arcsoft_dc_calibration_u_2nd.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/arcsoft_dc_calibration_u_2nd.bin \
     vendor/motorola/portov/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_portov_gc08a8_truly.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_portov_gc08a8_truly.bin \
     vendor/motorola/portov/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_portov_gc32e1_qtech.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_portov_gc32e1_qtech.bin \
     vendor/motorola/portov/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_portov_imx882_sunny.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_portov_imx882_sunny.bin \
     vendor/motorola/portov/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_portov_sc820cs_ddhl.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_portov_sc820cs_ddhl.bin \
+    vendor/motorola/portov/proprietary/vendor/lib64/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.default.bin \
     vendor/motorola/portov/proprietary/vendor/lib64/camera/com.qti.tuned.mot_portov_gc08a8.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_portov_gc08a8.bin \
     vendor/motorola/portov/proprietary/vendor/lib64/camera/com.qti.tuned.mot_portov_gc32e1.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_portov_gc32e1.bin \
     vendor/motorola/portov/proprietary/vendor/lib64/camera/com.qti.tuned.mot_portov_imx882.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_portov_imx882.bin \
@@ -3510,6 +3515,8 @@ PRODUCT_PACKAGES += \
     com.qti.sensor.mot_gc32e1 \
     com.qti.sensor.mot_imx882 \
     com.qti.sensor.mot_sc820cs \
+    com.arcsoft.node.dc_capture \
+    com.arcsoft.node.dc_preview \
     com.bots.node.vendortagwrite \
     com.bst.node.hdrdetect \
     com.bst.node.yuvhdr \
@@ -3621,9 +3628,11 @@ PRODUCT_PACKAGES += \
     com.qualcomm.mcx.policy.mfl \
     com.qualcomm.mcx.policy.xr \
     com.qualcomm.qti.mcx.usecase.extension \
+    anc.hal \
     camera.qcom \
     com.qti.chi.override \
     fingerprint.fpc.parrot \
+    jiiov.fingerprint.jv0103.default \
     libBSTHDRDETECT \
     libBSTMultiExpoGainHDR \
     libBSTNodeUtils \
@@ -3635,6 +3644,9 @@ PRODUCT_PACKAGES += \
     libanc_hdr_adapter_front_main \
     libanc_hdr_adapter_rear_main \
     libanc_hdr_adapter_rear_uw \
+    libarcsoft_chi_utils \
+    libarcsoft_distortion_correction \
+    libarcsoft_portrait_distortion_correction \
     libarcsoft_qnnhtp \
     libbitmlengine \
     libbitmlenginev2 \
@@ -3677,6 +3689,7 @@ PRODUCT_PACKAGES += \
     libmot_afd \
     libmot_engine_settings \
     libmotcameramodulemonitor \
+    libmpbase \
     libopencv \
     libopencv3a \
     libopestriping \
@@ -3707,6 +3720,7 @@ PRODUCT_PACKAGES += \
     manifest_IMoto_AIDL_Fingerprint.xml \
     vendor.qti.camera.provider.xml \
     capsense_reset \
+    android.hardware.biometrics.fingerprint-service-jv \
     android.hardware.biometrics.fingerprint-service.fpc \
     vendor.qti.camera.provider-service_64 \
     motsettings
