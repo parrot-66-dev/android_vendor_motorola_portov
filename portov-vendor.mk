@@ -3476,6 +3476,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/portov/proprietary/vendor/firmware/aw963xx_reg_0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw963xx_reg_0.bin \
     vendor/motorola/portov/proprietary/vendor/firmware/boe_chipone_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/boe_chipone_firmware.bin \
     vendor/motorola/portov/proprietary/vendor/firmware/csot_chipone_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/csot_chipone_firmware.bin \
+    vendor/motorola/portov/proprietary/vendor/firmware/frsm-spk1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/frsm-spk1.bin \
+    vendor/motorola/portov/proprietary/vendor/firmware/frsm-spk2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/frsm-spk2.bin \
     vendor/motorola/portov/proprietary/vendor/firmware/st21nfc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st21nfc_fw.bin \
     vendor/motorola/portov/proprietary/vendor/firmware/st21nfc_fw7.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st21nfc_fw7.bin \
     vendor/motorola/portov/proprietary/vendor/firmware/st54j_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st54j_fw.bin \
