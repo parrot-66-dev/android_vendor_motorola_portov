@@ -3361,6 +3361,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/portov/proprietary/vendor/etc/display/qdcm_calib_data_mipi_mot_vid_csot_1080p_dsc_672_120hz.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_mipi_mot_vid_csot_1080p_dsc_672_120hz.json \
     vendor/motorola/portov/proprietary/vendor/etc/display/qdcm_calib_data_mipi_mot_vid_txd_1080p_dsc_672_120hz.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_mipi_mot_vid_txd_1080p_dsc_672_120hz.json \
     vendor/motorola/portov/proprietary/vendor/etc/displayconfig/display_id_4630946916234099603.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946916234099603.xml \
+    vendor/motorola/portov/proprietary/vendor/etc/init/android.hardware.biometrics.face-service.face.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.face-service.face.rc \
     vendor/motorola/portov/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint-service-jv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint-service-jv.rc \
     vendor/motorola/portov/proprietary/vendor/etc/init/fingerprint-fpc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fingerprint-fpc.rc \
     vendor/motorola/portov/proprietary/vendor/etc/init/vendor.qti.camera.provider-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider-service_64.rc \
@@ -3639,6 +3640,7 @@ PRODUCT_PACKAGES += \
     libBSTMultiExpoGainHDR \
     libBSTNodeUtils \
     libDxHdcp \
+    libFaceUnlock \
     libPlatformValidatorShared \
     libaidenoiser \
     libaidenoiserv2 \
@@ -3719,10 +3721,13 @@ PRODUCT_PACKAGES += \
     moto-settings \
     com.android.hotwordenrollment.common.util \
     com.motorola.hardware.camera.postprocess-impl.xml \
+    face-default_4.xml \
     manifest_IMoto_AIDL_Fingerprint.xml \
     vendor.qti.camera.provider.xml \
     capsense_reset \
+    android.hardware.biometrics.face-service.face-isv \
     android.hardware.biometrics.fingerprint-service-jv \
     android.hardware.biometrics.fingerprint-service.fpc \
+    fpc_ident \
     vendor.qti.camera.provider-service_64 \
     motsettings
