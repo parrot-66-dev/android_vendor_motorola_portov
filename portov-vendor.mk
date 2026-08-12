@@ -3728,6 +3728,5 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.face-service.face-isv \
     android.hardware.biometrics.fingerprint-service-jv \
     android.hardware.biometrics.fingerprint-service.fpc \
-    fpc_ident \
     vendor.qti.camera.provider-service_64 \
     motsettings

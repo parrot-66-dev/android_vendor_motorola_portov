@@ -5,8 +5,8 @@
 soong_namespace {
     imports: [
         "device/motorola/portov",
-        "device/motorola/sm7435-common",
-        "vendor/motorola/sm7435-common",
+        "device/motorola/sm6450-common",
+        "vendor/motorola/sm6450-common",
         "hardware/motorola",
         "hardware/qcom-caf/sm8450-6.6",
         "vendor/qcom/opensource/commonsys-intf/display",
@@ -7115,36 +7115,6 @@ cc_prebuilt_binary {
     },
     compile_multilib: "64",
     check_elf_files: false,
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "fpc_ident",
-    owner: "motorola",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hw/fpc_ident",
-            ],
-            shared_libs: [
-                "libQSEEComAPI",
-                "liblog",
-                "libion",
-                "libcutils",
-                "libdmabufheap",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
     strip: {
         none: true,
     },
