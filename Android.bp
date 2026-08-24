@@ -4,12 +4,12 @@
 
 soong_namespace {
     imports: [
-        "device/motorola/portov",
         "device/motorola/sm6450-common",
         "vendor/motorola/sm6450-common",
         "hardware/motorola",
-        "hardware/qcom-caf/sm8450-6.6",
-        "vendor/qcom/opensource/commonsys-intf/display",
+        "hardware/qcom/display",
+        "hardware/qcom/display/gralloc",
+        "hardware/qcom/display/libdebug",
     ],
 }
 
@@ -2955,56 +2955,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "com.motorola.hardware.biometric.fingerprint-V1-ndk",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/com.motorola.hardware.biometric.fingerprint-V1-ndk.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.motorola.hardware.biometric.fingerprint-V3-ndk",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/com.motorola.hardware.biometric.fingerprint-V3-ndk.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "com.motorola.hardware.camera.postprocess-V1-ndk",
     owner: "motorola",
     strip: {
@@ -4435,7 +4385,7 @@ cc_prebuilt_library_shared {
                 "libcamximageformatutils",
                 "libcamxstatscore",
                 "libcamxswispiqmodule",
-                "libprotobuf-cpp-full-21.12-vendorcompat",
+                "libprotobuf-cpp-full",
                 "libqmi_cci",
                 "libqmi_common_so",
                 "libqmi_encdec",
@@ -4649,30 +4599,6 @@ cc_prebuilt_library_shared {
                 "libc",
                 "libm",
                 "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libDxHdcp",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libDxHdcp.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libm",
-                "libdl",
-                "libc",
             ],
         },
     },
@@ -6556,7 +6482,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libqshcamera.so",
             ],
             shared_libs: [
-                "libprotobuf-cpp-lite-21.12-vendorcompat",
+                "libprotobuf-cpp-lite",
                 "libsnsapi",
                 "libc++",
                 "libc",

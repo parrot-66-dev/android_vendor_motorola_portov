@@ -3348,15 +3348,17 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/portov/proprietary/vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.36_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.36_enpu2.pmd \
     vendor/motorola/portov/proprietary/vendor/etc/acdbdata/parrot_qrd/QRD_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/parrot_qrd/QRD_acdb_cal.acdb \
     vendor/motorola/portov/proprietary/vendor/etc/acdbdata/parrot_qrd/QRD_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/parrot_qrd/QRD_workspaceFileXml.qwsp \
+    vendor/motorola/portov/proprietary/vendor/etc/audio/sku_parrot/audio_effects_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_parrot/audio_effects_config.xml \
     vendor/motorola/portov/proprietary/vendor/etc/audio/sku_parrot/mixer_paths_parrot_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_parrot/mixer_paths_parrot_qrd.xml \
     vendor/motorola/portov/proprietary/vendor/etc/audio/sku_parrot/resourcemanager_parrot_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_parrot/resourcemanager_parrot_qrd.xml \
+    vendor/motorola/portov/proprietary/vendor/etc/audio/vendor_audio_interfaces.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/vendor_audio_interfaces.xml \
     vendor/motorola/portov/proprietary/vendor/etc/audio_ext_spkr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_ext_spkr.conf \
     vendor/motorola/portov/proprietary/vendor/etc/bstconfig/bstai_hdr:$(TARGET_COPY_OUT_VENDOR)/etc/bstconfig/bstai_hdr \
     vendor/motorola/portov/proprietary/vendor/etc/bstconfig/hdrcfg.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/bstconfig/hdrcfg.cfg \
     vendor/motorola/portov/proprietary/vendor/etc/camera/arcsoft_calibration_u_dc.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/arcsoft_calibration_u_dc.bin \
     vendor/motorola/portov/proprietary/vendor/etc/camera/mot_engine_config.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mot_engine_config.bin \
-    vendor/motorola/portov/proprietary/vendor/etc/camera/vidhance.lic:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance.lic \
     vendor/motorola/portov/proprietary/vendor/etc/camera/vidhance_calibration:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration \
+    vendor/motorola/portov/proprietary/vendor/etc/card-defs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/card-defs.xml \
     vendor/motorola/portov/proprietary/vendor/etc/display/qdcm_calib_data_mipi_mot_vid_boe_1080p_dsc_672_120hz.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_mipi_mot_vid_boe_1080p_dsc_672_120hz.json \
     vendor/motorola/portov/proprietary/vendor/etc/display/qdcm_calib_data_mipi_mot_vid_csot_1080p_dsc_672_120hz.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_mipi_mot_vid_csot_1080p_dsc_672_120hz.json \
     vendor/motorola/portov/proprietary/vendor/etc/display/qdcm_calib_data_mipi_mot_vid_txd_1080p_dsc_672_120hz.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_mipi_mot_vid_txd_1080p_dsc_672_120hz.json \
@@ -3387,6 +3389,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/portov/proprietary/vendor/etc/libnfc-hal-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-hal-st.conf \
     vendor/motorola/portov/proprietary/vendor/etc/libnfc-nci-st-felica.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci-st-felica.conf \
     vendor/motorola/portov/proprietary/vendor/etc/libnfc-nci-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci-st.conf \
+    vendor/motorola/portov/proprietary/vendor/etc/microphone_characteristics.xml:$(TARGET_COPY_OUT_VENDOR)/etc/microphone_characteristics.xml \
     vendor/motorola/portov/proprietary/vendor/etc/permissions/com.motorola.camera5.lens.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.camera5.lens.xml \
     vendor/motorola/portov/proprietary/vendor/etc/permissions/com.motorola.camera5.portov.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.camera5.portov.xml \
     vendor/motorola/portov/proprietary/vendor/etc/permissions/com.motorola.camera5.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.camera5.xml \
@@ -3593,8 +3596,6 @@ PRODUCT_PACKAGES += \
     libdepthmapwrapper_secure \
     camx.device-impl \
     camx.provider-impl \
-    com.motorola.hardware.biometric.fingerprint-V1-ndk \
-    com.motorola.hardware.biometric.fingerprint-V3-ndk \
     com.motorola.hardware.camera.postprocess-V1-ndk \
     com.motorola.hardware.display.panel-V2-ndk \
     com.qti.chiusecaseselector \
@@ -3639,7 +3640,6 @@ PRODUCT_PACKAGES += \
     libBSTHDRDETECT \
     libBSTMultiExpoGainHDR \
     libBSTNodeUtils \
-    libDxHdcp \
     libFaceUnlock \
     libPlatformValidatorShared \
     libaidenoiser \
